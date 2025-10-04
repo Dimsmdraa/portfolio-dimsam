@@ -1,5 +1,6 @@
 import DataImage from './data';
 import {listTools, listProyek, listSkills} from './data'
+import CommentSection from './components/commentsection';
 
 function App() {
 
@@ -132,6 +133,11 @@ function App() {
             </div>
           </form>
         </div>
+        {/* Komen */}
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <CommentSection />
+        </div>
+
 
     </>
   )
